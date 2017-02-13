@@ -6,8 +6,8 @@ import PostsIndex from './components/posts_index';
 import PostsNew from './components/post_new';
 
 
-		// remember to tell React where to put nested element in App
-		// with {this.props.children} in render method
+	// remember to tell React where to put nested element in App
+	// with {this.props.children} in render method
 export default(
 	<Route path="/" component={App} >
 		<IndexRoute component={PostsIndex} />
